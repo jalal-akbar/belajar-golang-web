@@ -1,0 +1,15 @@
+<html>
+<body>
+{{if ge .Value 90}}
+<h1>Very Nice</h1>
+{{else if ge .Value 80}}
+<h1>Nice</h1>
+{{else if ge .Value 70}}
+<h1>Good</h1>
+{{else if ge .Value 60}}
+<h1>Not Bad</h1>
+{{else}}
+<h1>Try Again</h1>
+{{end}}
+</body>
+</html>
